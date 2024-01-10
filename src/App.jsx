@@ -1,14 +1,18 @@
-import './App.css';
-import TodoWrapper from './Component/TodoWrapper';
+import React from 'react'
+import Navbar from './Component/Navbar'
+import Footer from './Component/Footer'
+import Wrapper from './Component/Wrapper'
 
 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <TodoWrapper  />
+    <div>
+       <Navbar/>
+       <Wrapper/>
+       <Footer/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
